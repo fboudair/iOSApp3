@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		FE06BF9D2D669AF800A15F5F /* Chapter22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chapter22.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE06BF9D2D669AF800A15F5F /* iOSApp3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSApp3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		FE06BF9E2D669AF800A15F5F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE06BF9D2D669AF800A15F5F /* Chapter22.app */,
+				FE06BF9D2D669AF800A15F5F /* iOSApp3.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FE06BF9C2D669AF800A15F5F /* Chapter22 */ = {
+		FE06BF9C2D669AF800A15F5F /* iOSApp3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE06BFAB2D669AFA00A15F5F /* Build configuration list for PBXNativeTarget "Chapter22" */;
+			buildConfigurationList = FE06BFAB2D669AFA00A15F5F /* Build configuration list for PBXNativeTarget "iOSApp3" */;
 			buildPhases = (
 				FE06BF992D669AF800A15F5F /* Sources */,
 				FE06BF9A2D669AF800A15F5F /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				FE06BF9F2D669AF800A15F5F /* Chapter22 */,
 			);
-			name = Chapter22;
+			name = iOSApp3;
 			packageProductDependencies = (
 			);
 			productName = Chapter22;
-			productReference = FE06BF9D2D669AF800A15F5F /* Chapter22.app */;
+			productReference = FE06BF9D2D669AF800A15F5F /* iOSApp3.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FE06BF982D669AF800A15F5F /* Build configuration list for PBXProject "Chapter22" */;
+			buildConfigurationList = FE06BF982D669AF800A15F5F /* Build configuration list for PBXProject "iOSApp3" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE06BF9C2D669AF800A15F5F /* Chapter22 */,
+				FE06BF9C2D669AF800A15F5F /* iOSApp3 */,
 			);
 		};
 /* End PBXProject section */
@@ -303,7 +303,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FE06BF982D669AF800A15F5F /* Build configuration list for PBXProject "Chapter22" */ = {
+		FE06BF982D669AF800A15F5F /* Build configuration list for PBXProject "iOSApp3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE06BFA92D669AFA00A15F5F /* Debug */,
@@ -312,7 +312,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE06BFAB2D669AFA00A15F5F /* Build configuration list for PBXNativeTarget "Chapter22" */ = {
+		FE06BFAB2D669AFA00A15F5F /* Build configuration list for PBXNativeTarget "iOSApp3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE06BFAC2D669AFA00A15F5F /* Debug */,

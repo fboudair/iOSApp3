@@ -14,6 +14,7 @@ struct Object: Codable, Hashable {
   let objectURL: String
   let isPublicDomain: Bool
   let primaryImageSmall: String
+  let galleryImages: [String]
 }
 
 struct ObjectIDs: Codable {

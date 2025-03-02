@@ -51,6 +51,8 @@ struct ObjectView: View {
                     .background(Color("Color 5"))
                     .foregroundColor(.white)
                     .cornerRadius(10)
+                Divider()
+                GalleryView (images: object.galleryImages)
             }
             .padding(.vertical)
         }
@@ -66,7 +68,18 @@ struct ObjectView_Previews: PreviewProvider {
           creditLine: "Gift of Arthur A. Houghton Jr., 1970",
           objectURL: "https://collections.rom.on.ca/internal/media/dispatcher/28263/preview",
           isPublicDomain: true,
-          primaryImageSmall: "https://collections.rom.on.ca/internal/media/dispatcher/28263/preview"))
+          primaryImageSmall:
+            "https://collections.rom.on.ca/internal/media/dispatcher/28263/preview",
+          galleryImages: [
+
+                              "https://example.com/image1.jpg",
+
+                              "https://example.com/image2.jpg",
+
+                              "https://example.com/image3.jpg"
+
+                          ]))
+ 
   }
 }
 
